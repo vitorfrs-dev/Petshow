@@ -233,6 +233,58 @@ article p {
     /*color:#2eadf6; background-color: transparent;*/
 }
 
+
+/*=======================Fale conosco================*/
+
+#faleConosco form {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#faleConosco input,textarea {
+    padding: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px  solid #2eadf6;
+}
+
+#faleConosco textarea {
+    height: 120px;
+    font-family: inherit;
+}
+
+#faleConosco input:focus {
+    background-color: #c3c3c3;
+    outline: none;
+}
+
+#faleConosco button {
+    background-color: transparent;
+    border: 1px solid deepskyblue;
+    color: deepskyblue;
+    padding: 15px;
+    text-align: center;
+    width: 120px;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: all 0.5s;
+}
+
+
+#faleConosco button:hover {
+    background-color: #2eadf6;
+    color: #fff;
+    width: 140px;
+    cursor: pointer;
+}
+
+
+/*========================Footer=====================*/
+
 footer {
     height: 80px;
     width: 100%;
